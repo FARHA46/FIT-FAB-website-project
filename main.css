@@ -1,0 +1,525 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+@media (min-width:800px) {
+    button {
+        padding: 22px 34px;
+    }
+
+    .section1 {
+        background-position: center right;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width:720px) {
+    .quote {
+        position: relative;
+        top: -72px;
+    }
+}
+
+@media (max-width:650px) {
+    .background {
+        background-size: contain;
+        width: 53em;
+    }
+
+    .feature-pricecategory {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .features-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .panel {
+        position: relative;
+        right: -69px;
+    }
+}
+
+body,
+html {
+    height: 85em;
+}
+
+@media (max-width:520px) {
+    .last {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    background-image: url(abs.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    aspect-ratio: 8/1;
+    background-size: cover;
+
+
+}
+
+
+
+.head {
+    word-spacing: 1px;
+    padding: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3em;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+
+.panel {
+     font-family: "Poppins", sans-serif;
+    font-weight:bolder;
+    font-style: normal;
+    font-size: x-large;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: brown;
+    margin: 2em;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+.quote {
+    padding: 3em;
+
+}
+
+.quote h4 {
+    font-size: 4em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+
+}
+
+.quote h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 4em;
+}
+
+button {
+    background-color: rgb(222, 131, 3);
+    padding: 22px 65px;
+    border: 1px solid black;
+    border-radius: 29px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 4em;
+
+
+}
+
+button:hover {
+    background-color: rgb(173, 178, 180);
+    border: 2px solid white;
+}
+
+.background {
+    background-image: url(black.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 4em;
+    overflow: hidden;
+    /* height: 100vh; */
+
+
+}
+
+
+.back {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.b1 {
+    color: orangered;
+    font-size: x-large;
+    padding: 29px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+
+
+}
+
+.b2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+    font-style: normal;
+    font-size: xx-large;
+    padding: 8px;
+
+}
+
+.features-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-item {
+    /* border: 1px solid gray; */
+    padding: 2em;
+    margin: 2em;
+    border-radius: 18px;
+    width: 480px;
+    height: 390px;
+    background-color: rgb(37, 34, 34);
+}
+
+.feature-item h4 {
+    padding: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.feature-item p {
+    font-family: "Times New Roman', Times, serif";
+    padding: 4px;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.feature-item:hover {
+    color: orangered;
+}
+
+.feature-variety h4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-style: normal;
+    font-size: x-large;
+    color: orangered;
+
+}
+
+.feature-variety h2 {
+    text-align: center;
+    padding: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+
+}
+
+.feature-category {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-offer {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
+    padding: 8px;
+    margin: 4px;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.details {
+    background-image: url(back.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    padding: 109px;
+   
+
+}
+
+.details h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: xx-large;
+
+
+
+}
+
+.details h4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-style: normal;
+    font-size: x-large;
+    color: orangered;
+}
+
+.details button {
+    margin: 60px;
+    border-radius: 0%;
+    color: white;
+    border: 1px solid rgb(24, 24, 24);
+    background-color: rgb(86, 86, 88);
+}
+
+.details button:hover {
+    background-color: orangered;
+    border: 2px solid white;
+}
+
+.feature-price {
+    text-align: center;
+}
+
+.feature-price h4 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: x-large;
+    color: orangered;
+    font-weight: 600;
+    margin: 18px;
+}
+
+.feature-price {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.feature-pricecategory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.feature-pricing {
+
+    border: 2px solid rgb(78, 78, 78);
+    border-radius: 4px;
+    margin: 8px;
+    padding: 35px;
+    width: 320px;
+    height: 425px;
+    text-align: center;
+    color: gray;
+}
+
+.feature-pricing h5 {
+
+    width: 230px;
+    height: 29px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(215, 215, 215);
+    background-color: rgb(78, 78, 78);
+    margin: 18px;
+
+
+}
+
+.feature-pricing:hover {
+    background-color: white;
+    border: 2px solid orangered;
+
+    h5 {
+        background-color: orangered;
+        color: black;
+    }
+
+    h4 {
+        color: black;
+    }
+}
+
+.feature-pricing h1 {
+    color: orangered;
+}
+
+.feature-pricing p {
+    font-weight: 500;
+    font-size: medium;
+
+}
+
+.feature-pricing h4 {
+    padding: 6px;
+    font-size: larger;
+    color: white;
+}
+.point1{
+     text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: x-large;
+    color: orangered;
+    font-weight: 600;
+    margin: 18px;
+}
+.point2{
+    text-align: center;
+    padding: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+}
+.image-slider-container {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.image-slider {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.image-slider img {
+  width: 310px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  height: 336px;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+.scroll-btn.left {
+  left: 0;
+}
+
+.scroll-btn.right {
+  right: 0;
+}
+
+
+
+.last {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 12px;
+    padding: 18px;
+}
+
+.contact {
+    padding: 19px;
+    margin: 37px;
+}
+
+.header {
+    text-align: center;
+    padding: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3em;
+}
